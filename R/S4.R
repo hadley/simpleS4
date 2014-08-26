@@ -15,7 +15,7 @@ setMethod("show", "A", function(object) {
 #' A simple test function
 #'
 #' @export
-test <- function() {
+testS4 <- function() {
   A <- new("A")
   print(A)
 }

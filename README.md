@@ -9,13 +9,13 @@ This package illustrates the correct way to depend on the methods package, in or
 
 This passes R CMD check, and works when run from Rscript:
 
-    Rscript --vanilla -e "library(simpleS4); test()"
-    Rscript --vanilla -e "simpleS4::test()"
+    Rscript --vanilla -e "library(simpleS4); testS4()"
+    Rscript --vanilla -e "simpleS4::testS4()"
 
 `test()` is defined as:
 
 ```r
-test <- function() {
+testS4 <- function() {
   A <- new("A")
   print(A)
 }
