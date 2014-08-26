@@ -13,14 +13,7 @@ This passes R CMD check, and works when run from Rscript:
     Rscript --vanilla -e "simpleS4::testS4()"
 
     Rscript --vanilla -e "library(simpleS4); testRC()"
+    
+This doesn't (yet):
+
     Rscript --vanilla -e "simpleS4::testRC()"
-
-
-`test()` is defined as:
-
-```r
-testS4 <- function() {
-  A <- new("A")
-  print(A)
-}
-```
