@@ -7,4 +7,7 @@ This package illustrates the correct way to depend on the methods package, in or
 * In DESCRIPTION, `Depends: methods`
 * In NAMESPACE, "imports(methods)"
 
-This passes R CMD check, and works when run from Rscript (e.g. `Rscript --vanilla -e "library(simpleS4); print(new('A'));"`)
+This passes R CMD check, and works when run from Rscript:
+
+    Rscript --vanilla -e "library(simpleS4); test()"
+    Rscript --vanilla -e "simpleS4::test()"

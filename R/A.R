@@ -11,3 +11,11 @@ setClass("A", contains = "list")
 setMethod("show", "A", function(object) {
   cat("Hi!\n")
 })
+
+#' A simple test function
+#'
+#' @export
+test <- function() {
+  A <- new("A")
+  print(A)
+}
