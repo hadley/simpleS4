@@ -1,7 +1,8 @@
 #' This is an RC class B.
 #'
-#' @export
 #' @import methods
+#' @export
+#' @export B
 #' @examples
 #' print(new("B"))
 B <- setRefClass("B", methods = list(
