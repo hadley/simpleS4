@@ -3,7 +3,7 @@
 \name{A-class}
 \alias{A-class}
 \alias{show,A-method}
-\title{This is a class A.}
+\title{This is a S4 class A.}
 \usage{
 \S4method{show}{A}(object)
 }
@@ -11,7 +11,7 @@
 \item{object}{Any R object}
 }
 \description{
-This is a class A.
+This is a S4 class A.
 }
 \examples{
 print(new("A"))

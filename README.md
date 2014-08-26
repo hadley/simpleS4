@@ -12,6 +12,10 @@ This passes R CMD check, and works when run from Rscript:
     Rscript --vanilla -e "library(simpleS4); testS4()"
     Rscript --vanilla -e "simpleS4::testS4()"
 
+    Rscript --vanilla -e "library(simpleS4); testRC()"
+    Rscript --vanilla -e "simpleS4::testRC()"
+
+
 `test()` is defined as:
 
 ```r

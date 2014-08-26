@@ -1,4 +1,4 @@
-#' This is a class A.
+#' This is a S4 class A.
 #'
 #' @export
 #' @import methods
