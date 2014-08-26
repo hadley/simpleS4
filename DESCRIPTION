@@ -1,0 +1,10 @@
+Package: simpleS4
+Title: A simple package to illustrate how to depend on methods.
+Version: 0.1
+Authors@R: 'Hadley Wickham <h.wickham@gmail.com> [aut,cre]'
+Description: A simple package demonstrating the right way to specify a
+    dependency on the methods package.
+Depends:
+    methods
+License: GPL-3
+LazyData: true
