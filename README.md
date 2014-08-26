@@ -11,3 +11,12 @@ This passes R CMD check, and works when run from Rscript:
 
     Rscript --vanilla -e "library(simpleS4); test()"
     Rscript --vanilla -e "simpleS4::test()"
+
+`test()` is defined as:
+
+```r
+test <- function() {
+  A <- new("A")
+  print(A)
+}
+```
