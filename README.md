@@ -1,5 +1,7 @@
 # simpleS4
 
+[![Build Status](https://travis-ci.org/hadley/simpleS4.png?branch=master)](https://travis-ci.org/hadley/simpleS4)
+
 This package illustrates the correct way to depend on the methods package, in order to use S4.  You need to do two things:
 
 * In DESCRIPTION, `Depends: methods`
